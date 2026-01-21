@@ -1,0 +1,84 @@
+#rs{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#Rakesh h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(52, 30, 67);
+
+}
+#img1{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    float: left;
+}
+#img2{
+    height: 180px;
+    width: 300px;
+    border-radius: 20px ;
+    float: right;
+    padding : 10px;
+    border: 1px solid black;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(52, 30, 67);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(126, 92, 148);
+}
+#italic{
+    font-style: italic;
+}
+.attribute{
+    padding: 20px 20px 20px 20px;
+}
+footer{
+    text-align: center;
+    color: rgb(52, 30, 67);
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    #rs{
+        height: 100px;
+        width: 100px;
+    }
+    #Rakesh h1{
+        font-size: 20px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    #img1{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    
+    margin-left: 20px;
+
+}
+    #img2{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    margin-right: 40px;
+    
+     }
+}
+
